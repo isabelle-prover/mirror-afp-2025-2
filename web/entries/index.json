@@ -1,5 +1,26 @@
 [
  {
+  "abstract": "This entry formalizes the classical Földes–Hammer theorem characterizing finite split graphs as exactly the graphs with no induced copy of \\(2K_2\\), \\(C_4\\), or \\(C_5\\). It builds on the AFP session Undirected_Graph_Theory.",
+  "authors": [
+   "Arthur Freitas Ramos",
+   "David Barros Hulak",
+   "Ruy Jose Guerra Barretto de Queiroz"
+  ],
+  "date": "2026-09-11",
+  "link": "../entries/Foldes_Hammer.html",
+  "permalink": "https://isa-afp.org/entries/Foldes_Hammer.html",
+  "related": [],
+  "shortname": "Foldes_Hammer",
+  "title": "The Földes–Hammer Characterization of Split Graphs",
+  "topic_links": [
+   "../topics/mathematics/graph-theory/"
+  ],
+  "topics": [
+   "Mathematics/Graph theory"
+  ],
+  "year": "2026"
+ },
+ {
   "abstract": "This entry formalizes that there are exactly five Platonic solids: the tetrahedron, cube, octahedron, dodecahedron, and icosahedron. A Platonic solid is a convex polyhedron whose faces are congruent regular polygons, with the same number of edges meeting at each vertex. Euler's polyhedron formula is used to show that there are at most five Platonic solids, and each of the five, defined as the convex hull of its vertices, is then shown to satisfy the required properties. The formal proof is computational (slow!) and is ported from John Harrison's formalization in HOL Light.",
   "authors": [
    "Evan Finken"

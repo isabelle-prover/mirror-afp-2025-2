@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://isa-afp.org/entries/index.json</loc>
-    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://isa-afp.org/</loc>
-    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://isa-afp.org/entries/Foldes_Hammer.html</loc>
+    <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://isa-afp.org/entries/Platonic_Solids.html</loc>
     <lastmod>2026-08-24T00:00:00+00:00</lastmod>
@@ -10714,6 +10717,8 @@
     <loc>https://isa-afp.org/thys/FOL_Seq_Calc3/Syntax.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/FOL-Fitting/FOL_Fitting.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Foldes_Hammer/Foldes_Hammer.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/Forcing/Arities.html</loc>
   </url><url>
