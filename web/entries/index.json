@@ -1,5 +1,26 @@
 [
  {
+  "abstract": "This entry formalizes that there are exactly five Platonic solids: the tetrahedron, cube, octahedron, dodecahedron, and icosahedron. A Platonic solid is a convex polyhedron whose faces are congruent regular polygons, with the same number of edges meeting at each vertex. Euler's polyhedron formula is used to show that there are at most five Platonic solids, and each of the five, defined as the convex hull of its vertices, is then shown to satisfy the required properties. The formal proof is computational (slow!) and is ported from John Harrison's formalization in HOL Light.",
+  "authors": [
+   "Evan Finken"
+  ],
+  "date": "2026-08-24",
+  "link": "../entries/Platonic_Solids.html",
+  "permalink": "https://isa-afp.org/entries/Platonic_Solids.html",
+  "related": [],
+  "shortname": "Platonic_Solids",
+  "title": "The Five Platonic Solids",
+  "topic_links": [
+   "../topics/mathematics/geometry/",
+   "../topics/computer-science/algorithms/geometry/"
+  ],
+  "topics": [
+   "Mathematics/Geometry",
+   "Computer science/Algorithms/Geometry"
+  ],
+  "year": "2026"
+ },
+ {
   "abstract": "This entry shows an important basic fact in complex analysis, namely that a complex-valued function $f$ holomorphic on an open annulus $\\{z \\mid 0\\leq r \u003c \\Vert z - z_0\\Vert \\leq R\\}$ has a (generalised) Laurent series expansion of the form \\[f(z) = \\sum_{n=-\\infty}^\\infty a_n (z - z_0)^n\\] that is valid on the entire annulus.\nAn important special case that is also developed is $r = 0$, i.e. the local behaviour of a function around an isolated singularity. For non-essential singularities, this reduces to the well-known simpler Laurent series expansions from HOL-Complex_Analysis of the form $\\sum_{n=n_0}^\\infty a_n (z-z_0)^n$. ",
   "authors": [
    "Manuel Eberl"
@@ -585,7 +606,7 @@
   "year": "2026"
  },
  {
-  "abstract": "Abstract: We formalise the classical theorem of algebraic topology that the fundamental group of the circle is isomorphic to the additive group of the integers, $\\pi_1(S^1) \\cong \\mathbb{Z}$.  The circle is modelled as the unit sphere in the complex plane with basepoint $1$, and the carrier of the fundamental group is the set of path-homotopy classes of loops based at $1$, with concatenation as the group operation. The group laws are obtained from the homotopy groupoid laws of the Isabelle Analysis library.  The isomorphism with $\\mathbb{Z}$ is given by the degree map, sending a homotopy class to the winding number about the origin of any representative loop. That this is a bijective group homomorphism follows from the winding-number classification of loops in the punctured plane, together with a radial retraction onto the circle. The entry is self-contained on top of the Isabelle distribution.  AI assistance was used for proof engineering. The final definitions, statements, and proofs are checked by Isabelle.",
+  "abstract": "We formalise the classical theorem of algebraic topology that the fundamental group of the circle is isomorphic to the additive group of the integers, $\\pi_1(S^1) \\cong \\mathbb{Z}$.  The circle is modelled as the unit sphere in the complex plane with basepoint $1$, and the carrier of the fundamental group is the set of path-homotopy classes of loops based at $1$, with concatenation as the group operation. The group laws are obtained from the homotopy groupoid laws of the Isabelle Analysis library.  The isomorphism with $\\mathbb{Z}$ is given by the degree map, sending a homotopy class to the winding number about the origin of any representative loop. That this is a bijective group homomorphism follows from the winding-number classification of loops in the punctured plane, together with a radial retraction onto the circle. The entry is self-contained on top of the Isabelle distribution.",
   "authors": [
    "Arthur Freitas Ramos",
    "David Barros Hulak",

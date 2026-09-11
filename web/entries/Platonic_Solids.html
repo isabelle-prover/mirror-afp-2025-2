@@ -2,11 +2,11 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>The Fundamental Group of the Circle - Archive of Formal Proofs</title>
-    <meta name="description" content="The Fundamental Group of the Circle in the Archive of Formal Proofs">
-    <meta property="og:description" content="The Fundamental Group of the Circle in the Archive of Formal Proofs">
-    <meta property="og:title" content="The Fundamental Group of the Circle">
-    <meta property="og:url" content="https://isa-afp.org/entries/Fundamental_Group_Circle.html">
+    <title>The Five Platonic Solids - Archive of Formal Proofs</title>
+    <meta name="description" content="The Five Platonic Solids in the Archive of Formal Proofs">
+    <meta property="og:description" content="The Five Platonic Solids in the Archive of Formal Proofs">
+    <meta property="og:title" content="The Five Platonic Solids">
+    <meta property="og:url" content="https://isa-afp.org/entries/Platonic_Solids.html">
     <meta property="og:image" content="https://isa-afp.org/images/afp.png">
     <meta property="og:type" content="article">
   <link rel="stylesheet" type="text/css" href="../css/front.min.css">
@@ -87,48 +87,57 @@
       </div>
     </form>
   <h1>
-    <span class='first'>T</span>he <span class='first'>F</span>undamental <span class='first'>G</span>roup of the <span class='first'>C</span>ircle
+    <span class='first'>T</span>he <span class='first'>F</span>ive <span class='first'>P</span>latonic <span class='first'>S</span>olids
   </h1>
   <div>
-      <p><a href="../authors/ramos/">Arthur Freitas Ramos</a> <a class="obfuscated" data="eyJ1c2VyIjpbImFyZnJlaXRhIl0sImhvc3QiOlsibWljcm9zb2Z0IiwiY29tIl19">📧</a>, <a href="../authors/hulak/">David Barros Hulak</a> <a class="obfuscated" data="eyJ1c2VyIjpbImRiaHVsYWsiXSwiaG9zdCI6WyJnbWFpbCIsImNvbSJdfQ==">📧</a> and <a href="../authors/queiroz/">Ruy Jose Guerra Barretto de Queiroz</a> <a class="obfuscated" data="eyJ1c2VyIjpbInJ1eSJdLCJob3N0IjpbImNpbiIsInVmcGUiLCJiciJdfQ==">📧</a>
+      <p><a href="../authors/finken/">Evan Finken</a> <a class="obfuscated" data="eyJ1c2VyIjpbImV2YW4iXSwiaG9zdCI6WyJmaW5rZW4iLCJuYW1lIl19">📧</a>
       </p>
-      <p class="date">July 2, 2026</p>
+      <p class="date">August 24, 2026</p>
   </div>
 </header>
       <div>
   <main>
 
     <h3>Abstract</h3>
-    <div class="abstract mathjax_process">We formalise the classical theorem of algebraic topology that the fundamental group of the circle is isomorphic to the additive group of the integers, $\pi_1(S^1) \cong \mathbb{Z}$.
-
-The circle is modelled as the unit sphere in the complex plane with basepoint $1$, and the carrier of the fundamental group is the set of path-homotopy classes of loops based at $1$, with concatenation as the group operation. The group laws are obtained from the homotopy groupoid laws of the Isabelle Analysis library.
-
-The isomorphism with $\mathbb{Z}$ is given by the degree map, sending a homotopy class to the winding number about the origin of any representative loop. That this is a bijective group homomorphism follows from the winding-number classification of loops in the punctured plane, together with a radial retraction onto the circle. The entry is self-contained on top of the Isabelle distribution.</div>
+    <div class="abstract mathjax_process">This entry formalizes that there are exactly five Platonic solids: the tetrahedron, cube, octahedron, dodecahedron, and icosahedron. A Platonic solid is a convex polyhedron whose faces are congruent regular polygons, with the same number of edges meeting at each vertex. Euler's polyhedron formula is used to show that there are at most five Platonic solids, and each of the five, defined as the convex hull of its vertices, is then shown to satisfy the required properties. The formal proof is computational (slow!) and is ported from John Harrison's formalization in HOL Light.</div>
 
     <h3>License</h3>
     <div>
         <a href="https://isa-afp.org/LICENSE">BSD License</a>
     </div>
       <h3>Note</h3>
-      <p><em>Opus 4.8 was used to help with proof engineering
-
-
-
-
+      <p><em>Large language models were used to explain the intermediate steps of the HOL Light formalization and to write parts of the more complicated proofs.
 
 
 
 </em></p>
       <h3>Topics</h3>
       <ul>
-          <li><a href="../topics/mathematics/topology/">Mathematics/Topology</a></li>
+          <li><a href="../topics/mathematics/geometry/">Mathematics/Geometry</a></li>
+          <li><a href="../topics/computer-science/algorithms/geometry/">Computer science/Algorithms/Geometry</a></li>
       </ul>
-      <h3>Session Fundamental_Group_Circle</h3>
+      <h3>Session Platonic_Solids</h3>
       <ul>
-          <li><a href="../thys/Fundamental_Group_Circle/Fundamental_Group_Circle.html">Fundamental_Group_Circle</a></li>
+          <li><a href="../thys/Platonic_Solids/Convex_Euclidean_Space_More.html">Convex_Euclidean_Space_More</a></li>
+          <li><a href="../thys/Platonic_Solids/Convex_More.html">Convex_More</a></li>
+          <li><a href="../thys/Platonic_Solids/Determinants_More.html">Determinants_More</a></li>
+          <li><a href="../thys/Platonic_Solids/Polytope_More.html">Polytope_More</a></li>
+          <li><a href="../thys/Platonic_Solids/Computation.html">Computation</a></li>
+          <li><a href="../thys/Platonic_Solids/Tetrahedron.html">Tetrahedron</a></li>
+          <li><a href="../thys/Platonic_Solids/Cube.html">Cube</a></li>
+          <li><a href="../thys/Platonic_Solids/Octahedron.html">Octahedron</a></li>
+          <li><a href="../thys/Platonic_Solids/Dodecahedron.html">Dodecahedron</a></li>
+          <li><a href="../thys/Platonic_Solids/Icosahedron.html">Icosahedron</a></li>
+          <li><a href="../thys/Platonic_Solids/Platonic_Solids.html">Platonic_Solids</a></li>
       </ul>
 
     <div class="flex-wrap">
+        <div>
+          <h3>Depends on</h3>
+          <ul class="horizontal-list">
+              <li><a href="../entries/Euler_Polyhedron_Formula.html">Euler's Polyhedron Formula</a></li>
+          </ul>
+        </div>
     </div>
   </main>
 
@@ -136,9 +145,9 @@ The isomorphism with $\mathbb{Z}$ is given by the degree map, sending a homotopy
     <a class="popup-button" href="#cite-popup">Cite</a>
     <a class="popup-button" href="#download-popup">Download</a>
     <h4>PDFs</h4>
-    <a href="https://isa-afp.org/browser_info/current/AFP/Fundamental_Group_Circle/outline.pdf">Proof outline</a>
-    <a href="https://isa-afp.org/browser_info/current/AFP/Fundamental_Group_Circle/document.pdf">Proof document</a>
-    <a href="https://isa-afp.org/browser_info/current/AFP/Fundamental_Group_Circle/session_graph.pdf">Dependencies</a>
+    <a href="https://isa-afp.org/browser_info/current/AFP/Platonic_Solids/outline.pdf">Proof outline</a>
+    <a href="https://isa-afp.org/browser_info/current/AFP/Platonic_Solids/document.pdf">Proof document</a>
+    <a href="https://isa-afp.org/browser_info/current/AFP/Platonic_Solids/session_graph.pdf">Dependencies</a>
   </nav>
 
   <div id="cite-popup" class="overlay">
@@ -147,14 +156,14 @@ The isomorphism with $\mathbb{Z}$ is given by the degree map, sending a homotopy
       <h2>Cite</h2>
       <a class="close" href="#">&times;</a>
       <div>
-        <p style="display:none;" id="bibtex-filename">Fundamental_Group_Circle-AFP</p>
-        <pre id="copy-text">@article{Fundamental_Group_Circle-AFP,
-  author  = {Arthur Freitas Ramos and David Barros Hulak and Ruy Jose Guerra Barretto de Queiroz},
-  title   = {The Fundamental Group of the Circle},
+        <p style="display:none;" id="bibtex-filename">Platonic_Solids-AFP</p>
+        <pre id="copy-text">@article{Platonic_Solids-AFP,
+  author  = {Evan Finken},
+  title   = {The Five Platonic Solids},
   journal = {Archive of Formal Proofs},
-  month   = {July},
+  month   = {August},
   year    = {2026},
-  note    = {\url{https://isa-afp.org/entries/Fundamental_Group_Circle.html},
+  note    = {\url{https://isa-afp.org/entries/Platonic_Solids.html},
              Formal proof development},
   ISSN    = {2150-914x},
 }</pre>
@@ -168,7 +177,7 @@ The isomorphism with $\mathbb{Z}$ is given by the degree map, sending a homotopy
     <div class="popup">
       <h2>Download</h2>
       <a class="close" href="#">&times;</a>
-      <a href="https://isa-afp.org/release/afp-Fundamental_Group_Circle-current.tar.gz" download>
+      <a href="https://isa-afp.org/release/afp-Platonic_Solids-current.tar.gz" download>
         Download latest</a>
     </div>
   </div>

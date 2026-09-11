@@ -2274,6 +2274,23 @@ host = [
 
 [fiedler.homepages]
 
+[finken]
+name = "Evan Finken"
+orcid = "0009-0007-7499-502X"
+
+[finken.emails]
+
+[finken.emails.finken_email]
+user = [
+  "evan",
+]
+host = [
+  "finken",
+  "name",
+]
+
+[finken.homepages]
+
 [fleuriot]
 name = "Jacques D. Fleuriot"
 

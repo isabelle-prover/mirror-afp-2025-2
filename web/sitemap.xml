@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://isa-afp.org/entries/index.json</loc>
-    <lastmod>2026-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://isa-afp.org/</loc>
-    <lastmod>2026-08-22T00:00:00+00:00</lastmod>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://isa-afp.org/entries/Platonic_Solids.html</loc>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://isa-afp.org/entries/Laurent_Annulus.html</loc>
     <lastmod>2026-08-22T00:00:00+00:00</lastmod>
@@ -9769,6 +9772,8 @@
     <loc>https://isa-afp.org/thys/Eval_FO/FO.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/Eval_FO/Mapping_Code.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/authors/finken/</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/Example-Submission/Submission.html</loc>
   </url><url>
@@ -20509,6 +20514,28 @@
     <loc>https://isa-afp.org/thys/Planarity_Certificates/Simpl_Anno.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/Planarity_Certificates/WP.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Platonic_Solids/Computation.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Platonic_Solids/Convex_Euclidean_Space_More.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Platonic_Solids/Convex_More.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Platonic_Solids/Cube.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Platonic_Solids/Determinants_More.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Platonic_Solids/Dodecahedron.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Platonic_Solids/Icosahedron.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Platonic_Solids/Octahedron.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Platonic_Solids/Platonic_Solids.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Platonic_Solids/Polytope_More.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Platonic_Solids/Tetrahedron.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/PLM/TAO_1_Embedding.html</loc>
   </url><url>

@@ -1507,6 +1507,16 @@
  },
  {
   "emails": [
+   "eyJ1c2VyIjpbImV2YW4iXSwiaG9zdCI6WyJmaW5rZW4iLCJuYW1lIl19"
+  ],
+  "homepages": [],
+  "id": "finken",
+  "link": "../authors/finken/",
+  "name": "Evan Finken",
+  "orcid": "0009-0007-7499-502X"
+ },
+ {
+  "emails": [
    "eyJ1c2VyIjpbImZmc2VycmFub3MiXSwiaG9zdCI6WyJ1bmFsIiwiZWR1IiwiY28iXX0="
   ],
   "homepages": [],
