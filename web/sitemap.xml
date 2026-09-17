@@ -11,6 +11,9 @@
     <loc>https://isa-afp.org/entries/Foldes_Hammer.html</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://isa-afp.org/entries/System_F_Normalization.html</loc>
+    <lastmod>2026-09-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://isa-afp.org/entries/Platonic_Solids.html</loc>
     <lastmod>2026-08-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -24568,6 +24571,16 @@
     <loc>https://isa-afp.org/thys/Synthetic_Completeness/Maximal_Consistent_Sets.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/Synthetic_Completeness/Refutations.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/System_F_Normalization/System_F.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/System_F_Normalization/System_F_Erasure.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/System_F_Normalization/System_F_Normalization.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/System_F_Normalization/System_F_Subject_Reduction.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/System_F_Normalization/System_F_Untyped.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/Szemeredi_Regularity/Szemeredi.html</loc>
   </url><url>
