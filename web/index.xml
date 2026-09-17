@@ -20,6 +20,13 @@
     <category>Logic/General logic/Mechanization of proofs</category>
 </item>
 <item>
+  <title>Greibach’s Hardest Context-Free Language</title>
+  <link>https://isa-afp.org/entries/Greibach_Hardest.html</link>
+  <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+  <description>Greibach’s Hardest Context-Free Language in the AFP</description>
+    <category>Computer science/Automata and formal languages</category>
+</item>
+<item>
   <title>The Five Platonic Solids</title>
   <link>https://isa-afp.org/entries/Platonic_Solids.html</link>
   <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>

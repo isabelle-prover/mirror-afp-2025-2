@@ -62,6 +62,29 @@
   "year": "2026"
  },
  {
+  "abstract": "Formalization of Greibach’s hardest context-free language theorem: There is a “hardest” context-free language $L_0$ such that every context-free language is an inverse homomorphic image of $L_0$.",
+  "authors": [
+   "Tobias Nipkow"
+  ],
+  "date": "2026-08-25",
+  "link": "../entries/Greibach_Hardest.html",
+  "permalink": "https://isa-afp.org/entries/Greibach_Hardest.html",
+  "related": [
+   {
+    "doi": "10.1137/0202025"
+   }
+  ],
+  "shortname": "Greibach_Hardest",
+  "title": "Greibach’s Hardest Context-Free Language",
+  "topic_links": [
+   "../topics/computer-science/automata-and-formal-languages/"
+  ],
+  "topics": [
+   "Computer science/Automata and formal languages"
+  ],
+  "year": "2026"
+ },
+ {
   "abstract": "This entry formalizes that there are exactly five Platonic solids: the tetrahedron, cube, octahedron, dodecahedron, and icosahedron. A Platonic solid is a convex polyhedron whose faces are congruent regular polygons, with the same number of edges meeting at each vertex. Euler's polyhedron formula is used to show that there are at most five Platonic solids, and each of the five, defined as the convex hull of its vertices, is then shown to satisfy the required properties. The formal proof is computational (slow!) and is ported from John Harrison's formalization in HOL Light.",
   "authors": [
    "Evan Finken"

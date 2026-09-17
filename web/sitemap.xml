@@ -14,6 +14,9 @@
     <loc>https://isa-afp.org/entries/System_F_Normalization.html</loc>
     <lastmod>2026-09-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://isa-afp.org/entries/Greibach_Hardest.html</loc>
+    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://isa-afp.org/entries/Platonic_Solids.html</loc>
     <lastmod>2026-08-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -11600,6 +11603,8 @@
     <loc>https://isa-afp.org/authors/keefe/</loc>
   </url><url>
     <loc>https://isa-afp.org/authors/snelting/</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Greibach_Hardest/Greibach_Hardest.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/Greibach_Normal_Form/Greibach_Normal_Form.html</loc>
   </url><url>
