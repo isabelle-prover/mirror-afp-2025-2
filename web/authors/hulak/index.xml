@@ -20,6 +20,14 @@
     <category>Logic/General logic/Mechanization of proofs</category>
 </item>
 <item>
+  <title>Napoleon&#39;s Theorem in Isabelle/HOL</title>
+  <link>https://isa-afp.org/entries/Napoleon.html</link>
+  <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+  <description>Napoleon&#39;s Theorem in Isabelle/HOL in the AFP</description>
+    <category>Mathematics/Geometry</category>
+    <category>Logic/General logic/Mechanization of proofs</category>
+</item>
+<item>
   <title>Miquel&#39;s Theorem in Isabelle/HOL</title>
   <link>https://isa-afp.org/entries/Miquel.html</link>
   <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>

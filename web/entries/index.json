@@ -85,6 +85,29 @@
   "year": "2026"
  },
  {
+  "abstract": "Napoleon's theorem states that, for a non-degenerate triangle, the centres of the equilateral triangles constructed externally on its three sides form an equilateral triangle. We formalize this construction and conclusion using complex coordinates, including the exterior-side condition and both orientations of the 60-degree rotation.",
+  "authors": [
+   "Arthur Freitas Ramos",
+   "David Barros Hulak",
+   "Ruy Jose Guerra Barretto de Queiroz"
+  ],
+  "date": "2026-08-24",
+  "link": "../entries/Napoleon.html",
+  "permalink": "https://isa-afp.org/entries/Napoleon.html",
+  "related": [],
+  "shortname": "Napoleon",
+  "title": "Napoleon's Theorem in Isabelle/HOL",
+  "topic_links": [
+   "../topics/mathematics/geometry/",
+   "../topics/logic/general-logic/mechanization-of-proofs/"
+  ],
+  "topics": [
+   "Mathematics/Geometry",
+   "Logic/General logic/Mechanization of proofs"
+  ],
+  "year": "2026"
+ },
+ {
   "abstract": "This entry formalizes that there are exactly five Platonic solids: the tetrahedron, cube, octahedron, dodecahedron, and icosahedron. A Platonic solid is a convex polyhedron whose faces are congruent regular polygons, with the same number of edges meeting at each vertex. Euler's polyhedron formula is used to show that there are at most five Platonic solids, and each of the five, defined as the convex hull of its vertices, is then shown to satisfy the required properties. The formal proof is computational (slow!) and is ported from John Harrison's formalization in HOL Light.",
   "authors": [
    "Evan Finken"
