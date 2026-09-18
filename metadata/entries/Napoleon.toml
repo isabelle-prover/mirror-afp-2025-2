@@ -1,4 +1,4 @@
-title = "Napoleon's Theorem in Isabelle/HOL"
+title = "Napoleon's Theorem"
 date = 2026-08-24
 topics = [
   "Mathematics/Geometry",
@@ -7,7 +7,7 @@ topics = [
 abstract = "Napoleon's theorem states that, for a non-degenerate triangle, the centres of the equilateral triangles constructed externally on its three sides form an equilateral triangle. We formalize this construction and conclusion using complex coordinates, including the exterior-side condition and both orientations of the 60-degree rotation."
 license = "bsd"
 note = ""
-creation_note = "AI assistance was used for proof engineering. The final definitions, statements, and proofs are checked by Isabelle."
+creation_note = "AI assistance was used for proof engineering."
 
 [authors]
 

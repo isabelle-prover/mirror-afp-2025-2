@@ -96,7 +96,7 @@
   "permalink": "https://isa-afp.org/entries/Napoleon.html",
   "related": [],
   "shortname": "Napoleon",
-  "title": "Napoleon's Theorem in Isabelle/HOL",
+  "title": "Napoleon's Theorem",
   "topic_links": [
    "../topics/mathematics/geometry/",
    "../topics/logic/general-logic/mechanization-of-proofs/"
