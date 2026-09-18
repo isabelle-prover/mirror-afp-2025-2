@@ -11,6 +11,9 @@
     <loc>https://isa-afp.org/entries/Foldes_Hammer.html</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://isa-afp.org/entries/CRT_Product_Tree.html</loc>
+    <lastmod>2026-09-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://isa-afp.org/entries/System_F_Normalization.html</loc>
     <lastmod>2026-09-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -8190,6 +8193,10 @@
     <loc>https://isa-afp.org/thys/CRDT/Util.html</loc>
   </url><url>
     <loc>https://isa-afp.org/authors/matache/</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/CRT_Product_Tree/CRT_Product_Tree.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/CRT_Product_Tree/CRT_Product_Tree_Benchmark.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/CryptHOL/Computational_Model.html</loc>
   </url><url>

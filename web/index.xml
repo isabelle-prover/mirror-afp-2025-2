@@ -11,6 +11,13 @@
     <category>Mathematics/Graph theory</category>
 </item>
 <item>
+  <title>Fast Chinese Remaindering via Product Trees</title>
+  <link>https://isa-afp.org/entries/CRT_Product_Tree.html</link>
+  <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+  <description>Fast Chinese Remaindering via Product Trees in the AFP</description>
+    <category>Mathematics/Algebra</category>
+</item>
+<item>
   <title>Strong Normalization for Church-Style System F</title>
   <link>https://isa-afp.org/entries/System_F_Normalization.html</link>
   <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
