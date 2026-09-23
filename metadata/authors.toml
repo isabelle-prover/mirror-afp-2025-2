@@ -1575,6 +1575,24 @@ host = [
 [connor.homepages]
 connor_homepage = "https://liamoc.net"
 
+[cordeiro]
+name = "Luiz Gustavo Cordeiro"
+orcid = "0000-0002-5436-0250"
+
+[cordeiro.emails]
+
+[cordeiro.emails.cordeiro_email]
+user = [
+  "luiz",
+  "cordeiro",
+]
+host = [
+  "ufsc",
+  "br",
+]
+
+[cordeiro.homepages]
+
 [cordwell]
 name = "Katherine Kosaian"
 
@@ -4225,6 +4243,23 @@ host = [
 ]
 
 [koller.homepages]
+
+[kraisch]
+name = "Vithor Lindermann Kraisch"
+orcid = "0009-0005-9574-9069"
+
+[kraisch.emails]
+
+[kraisch.emails.kraisch_email]
+user = [
+  "vithorkr",
+]
+host = [
+  "gmail",
+  "com",
+]
+
+[kraisch.homepages]
 
 [krasnopol]
 name = "Florent Krasnopol"

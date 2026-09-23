@@ -2,11 +2,11 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Wieferich–Kempner Theorem - Archive of Formal Proofs</title>
-    <meta name="description" content="Wieferich–Kempner Theorem in the Archive of Formal Proofs">
-    <meta property="og:description" content="Wieferich–Kempner Theorem in the Archive of Formal Proofs">
-    <meta property="og:title" content="Wieferich–Kempner Theorem">
-    <meta property="og:url" content="https://isa-afp.org/entries/Wieferich_Kempner.html">
+    <title>The Teichmüller-Tukey Lemma - Archive of Formal Proofs</title>
+    <meta name="description" content="The Teichmüller-Tukey Lemma in the Archive of Formal Proofs">
+    <meta property="og:description" content="The Teichmüller-Tukey Lemma in the Archive of Formal Proofs">
+    <meta property="og:title" content="The Teichmüller-Tukey Lemma">
+    <meta property="og:url" content="https://isa-afp.org/entries/Teichmuller_Tukey_Lemma.html">
     <meta property="og:image" content="https://isa-afp.org/images/afp.png">
     <meta property="og:type" content="article">
   <link rel="stylesheet" type="text/css" href="../css/front.min.css">
@@ -87,45 +87,44 @@
       </div>
     </form>
   <h1>
-    <span class='first'>W</span>ieferich–<span class='first'>K</span>empner <span class='first'>T</span>heorem
+    <span class='first'>T</span>he <span class='first'>T</span>eichmüller-<span class='first'>T</span>ukey <span class='first'>L</span>emma
   </h1>
   <div>
-      <p><a href="../authors/chenj/">Jamie Chen</a> <a href="https://gitlab.com/Jamie-Chen">🌐</a>
+      <p><a href="../authors/kraisch/">Vithor Lindermann Kraisch</a> <a class="obfuscated" data="eyJ1c2VyIjpbInZpdGhvcmtyIl0sImhvc3QiOlsiZ21haWwiLCJjb20iXX0=">📧</a> and <a href="../authors/cordeiro/">Luiz Gustavo Cordeiro</a> <a class="obfuscated" data="eyJ1c2VyIjpbImx1aXoiLCJjb3JkZWlybyJdLCJob3N0IjpbInVmc2MiLCJiciJdfQ==">📧</a>
       </p>
-      <p class="date">March 6, 2024</p>
+      <p class="date">September 21, 2026</p>
   </div>
 </header>
       <div>
   <main>
 
     <h3>Abstract</h3>
-    <div class="abstract mathjax_process">This document presents a formalised proof of the Wieferich–Kempner Theorem, stating that all nonnegative integers can be expressed as the sum of nine nonnegative cubes.  The source of the proof is the book "Additive Number Theory: The Classical Bases" by Melvyn B. Nathanson.</div>
+    <div class="abstract mathjax_process">This entry formalizes the Teichmüller-Tukey lemma in Isabelle/HOL: every nonempty family of sets of finite character contains a member that is maximal under inclusion. The development follows the direct choice-function construction of Sun and Yu, originally presented in Morse-Kelley set theory and verified in Coq.</div>
 
     <h3>License</h3>
     <div>
-        <a href="https://isa-afp.org/LICENSE.LGPL">GNU Lesser General Public License (LGPL)</a>
+        <a href="https://isa-afp.org/LICENSE">BSD License</a>
     </div>
+      <h3>Note</h3>
+      <p><em>Grammar check in texts and abstract; Help to compile and prepare the submission. Not used in the proofs.
+
+
+
+</em></p>
       <h3>Topics</h3>
       <ul>
-          <li><a href="../topics/mathematics/number-theory/">Mathematics/Number theory</a></li>
+          <li><a href="../topics/logic/set-theory/">Logic/Set theory</a></li>
       </ul>
       <h3>Related publications</h3>
       <ul>
-        <li>Nathanson, M. B. (1996). Additive Number Theory. In Graduate Texts in Mathematics. Springer New York. <a href="https://doi.org/10.1007/978-1-4757-3845-2">https://doi.org/10.1007/978-1-4757-3845-2</a>
-</li>
+        <li>Sun, T., &amp; Yu, W. (2019). <i>Formalization of the Axiom of Choice and its Equivalent Theorems</i> (Version 1). arXiv. https://doi.org/10.48550/ARXIV.1906.03930</li>
       </ul>
-      <h3>Session Wieferich_Kempner</h3>
+      <h3>Session Teichmuller_Tukey_Lemma</h3>
       <ul>
-          <li><a href="../thys/Wieferich_Kempner/Wieferich_Kempner.html">Wieferich_Kempner</a></li>
+          <li><a href="../thys/Teichmuller_Tukey_Lemma/Teichmuller_Tukey_Lemma.html">Teichmuller_Tukey_Lemma</a></li>
       </ul>
 
     <div class="flex-wrap">
-        <div>
-          <h3>Depends on</h3>
-          <ul class="horizontal-list">
-              <li><a href="../entries/Three_Squares.html">Three Squares Theorem</a></li>
-          </ul>
-        </div>
     </div>
   </main>
 
@@ -133,9 +132,9 @@
     <a class="popup-button" href="#cite-popup">Cite</a>
     <a class="popup-button" href="#download-popup">Download</a>
     <h4>PDFs</h4>
-    <a href="https://isa-afp.org/browser_info/current/AFP/Wieferich_Kempner/outline.pdf">Proof outline</a>
-    <a href="https://isa-afp.org/browser_info/current/AFP/Wieferich_Kempner/document.pdf">Proof document</a>
-    <a href="https://isa-afp.org/browser_info/current/AFP/Wieferich_Kempner/session_graph.pdf">Dependencies</a>
+    <a href="https://isa-afp.org/browser_info/current/AFP/Teichmuller_Tukey_Lemma/outline.pdf">Proof outline</a>
+    <a href="https://isa-afp.org/browser_info/current/AFP/Teichmuller_Tukey_Lemma/document.pdf">Proof document</a>
+    <a href="https://isa-afp.org/browser_info/current/AFP/Teichmuller_Tukey_Lemma/session_graph.pdf">Dependencies</a>
   </nav>
 
   <div id="cite-popup" class="overlay">
@@ -144,14 +143,14 @@
       <h2>Cite</h2>
       <a class="close" href="#">&times;</a>
       <div>
-        <p style="display:none;" id="bibtex-filename">Wieferich_Kempner-AFP</p>
-        <pre id="copy-text">@article{Wieferich_Kempner-AFP,
-  author  = {Jamie Chen},
-  title   = {Wieferich–Kempner Theorem},
+        <p style="display:none;" id="bibtex-filename">Teichmuller_Tukey_Lemma-AFP</p>
+        <pre id="copy-text">@article{Teichmuller_Tukey_Lemma-AFP,
+  author  = {Vithor Lindermann Kraisch and Luiz Gustavo Cordeiro},
+  title   = {The Teichmüller-Tukey Lemma},
   journal = {Archive of Formal Proofs},
-  month   = {March},
-  year    = {2024},
-  note    = {\url{https://isa-afp.org/entries/Wieferich_Kempner.html},
+  month   = {September},
+  year    = {2026},
+  note    = {\url{https://isa-afp.org/entries/Teichmuller_Tukey_Lemma.html},
              Formal proof development},
   ISSN    = {2150-914x},
 }</pre>
@@ -165,41 +164,8 @@
     <div class="popup">
       <h2>Download</h2>
       <a class="close" href="#">&times;</a>
-      <a href="https://isa-afp.org/release/afp-Wieferich_Kempner-current.tar.gz" download>
+      <a href="https://isa-afp.org/release/afp-Teichmuller_Tukey_Lemma-current.tar.gz" download>
         Download latest</a>
-        <p>Older releases:</p>
-        <ul>
-            <li>
-              <a href="https://isa-afp.org/release/afp-Wieferich_Kempner-2026-02-06.tar.gz">
-                Feb 6, 2026
-              </a>
-              : Isabelle2025-2
-            </li>
-            <li>
-              <a href="https://isa-afp.org/release/afp-Wieferich_Kempner-2025-12-19.tar.gz">
-                Dec 19, 2025
-              </a>
-              : Isabelle2025-1
-            </li>
-            <li>
-              <a href="https://isa-afp.org/release/afp-Wieferich_Kempner-2025-03-17.tar.gz">
-                Mar 17, 2025
-              </a>
-              : Isabelle2025
-            </li>
-            <li>
-              <a href="https://isa-afp.org/release/afp-Wieferich_Kempner-2024-05-26.tar.gz">
-                May 26, 2024
-              </a>
-              : Isabelle2024
-            </li>
-            <li>
-              <a href="https://isa-afp.org/release/afp-Wieferich_Kempner-2024-03-08.tar.gz">
-                Mar 8, 2024
-              </a>
-              : Isabelle2023
-            </li>
-        </ul>
     </div>
   </div>
       </div>

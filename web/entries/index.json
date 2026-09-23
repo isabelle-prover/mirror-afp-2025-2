@@ -1,5 +1,29 @@
 [
  {
+  "abstract": "This entry formalizes the Teichmüller-Tukey lemma in Isabelle/HOL: every nonempty family of sets of finite character contains a member that is maximal under inclusion. The development follows the direct choice-function construction of Sun and Yu, originally presented in Morse-Kelley set theory and verified in Coq.",
+  "authors": [
+   "Vithor Lindermann Kraisch",
+   "Luiz Gustavo Cordeiro"
+  ],
+  "date": "2026-09-21",
+  "link": "../entries/Teichmuller_Tukey_Lemma.html",
+  "permalink": "https://isa-afp.org/entries/Teichmuller_Tukey_Lemma.html",
+  "related": [
+   {
+    "doi": "10.48550/arXiv.1906.03930"
+   }
+  ],
+  "shortname": "Teichmuller_Tukey_Lemma",
+  "title": "The Teichmüller-Tukey Lemma",
+  "topic_links": [
+   "../topics/logic/set-theory/"
+  ],
+  "topics": [
+   "Logic/Set theory"
+  ],
+  "year": "2026"
+ },
+ {
   "abstract": "This entry formalizes the classical Földes–Hammer theorem characterizing finite split graphs as exactly the graphs with no induced copy of \\(2K_2\\), \\(C_4\\), or \\(C_5\\). It builds on the AFP session Undirected_Graph_Theory.",
   "authors": [
    "Arthur Freitas Ramos",

@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://isa-afp.org/entries/index.json</loc>
-    <lastmod>2026-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://isa-afp.org/</loc>
-    <lastmod>2026-09-11T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://isa-afp.org/entries/Teichmuller_Tukey_Lemma.html</loc>
+    <lastmod>2026-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://isa-afp.org/entries/Foldes_Hammer.html</loc>
     <lastmod>2026-09-11T00:00:00+00:00</lastmod>
@@ -17754,6 +17757,8 @@
   </url><url>
     <loc>https://isa-afp.org/authors/montanari/</loc>
   </url><url>
+    <loc>https://isa-afp.org/authors/cordeiro/</loc>
+  </url><url>
     <loc>https://isa-afp.org/authors/bruegger/</loc>
   </url><url>
     <loc>https://isa-afp.org/authors/bulwahn/</loc>
@@ -24663,6 +24668,8 @@
   </url><url>
     <loc>https://isa-afp.org/thys/Taylor_Models/Taylor_Models_Misc.html</loc>
   </url><url>
+    <loc>https://isa-afp.org/thys/Teichmuller_Tukey_Lemma/Teichmuller_Tukey_Lemma.html</loc>
+  </url><url>
     <loc>https://isa-afp.org/authors/stuebinger/</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/TESL_Language/Config_Morphisms.html</loc>
@@ -26298,6 +26305,8 @@
     <loc>https://isa-afp.org/thys/Virtual_Substitution/VSAlgos.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/Virtual_Substitution/VSQuad.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/authors/kraisch/</loc>
   </url><url>
     <loc>https://isa-afp.org/authors/maadoori/</loc>
   </url><url>
