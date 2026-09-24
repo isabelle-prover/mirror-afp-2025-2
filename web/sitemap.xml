@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://isa-afp.org/entries/index.json</loc>
-    <lastmod>2026-09-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://isa-afp.org/</loc>
-    <lastmod>2026-09-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://isa-afp.org/entries/Joinable_BST_Work_Bounds.html</loc>
+    <lastmod>2026-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://isa-afp.org/entries/Teichmuller_Tukey_Lemma.html</loc>
     <lastmod>2026-09-21T00:00:00+00:00</lastmod>
@@ -16360,6 +16363,18 @@
   </url><url>
     <loc>https://isa-afp.org/authors/wickerson/</loc>
   </url><url>
+    <loc>https://isa-afp.org/thys/Joinable_BST_Work_Bounds/Analytical.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Joinable_BST_Work_Bounds/BalancedBinary.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Joinable_BST_Work_Bounds/StronglyJoinable.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Joinable_BST_Work_Bounds/StronglyJoinableAVL.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Joinable_BST_Work_Bounds/StronglyJoinableRBT.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Joinable_BST_Work_Bounds/Submodularity.html</loc>
+  </url><url>
     <loc>https://isa-afp.org/authors/bayer/</loc>
   </url><url>
     <loc>https://isa-afp.org/authors/israel/</loc>
@@ -17795,6 +17810,8 @@
     <loc>https://isa-afp.org/authors/caminati/</loc>
   </url><url>
     <loc>https://isa-afp.org/authors/david/</loc>
+  </url><url>
+    <loc>https://isa-afp.org/authors/haucke/</loc>
   </url><url>
     <loc>https://isa-afp.org/authors/spichkova/</loc>
   </url><url>

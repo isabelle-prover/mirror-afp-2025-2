@@ -1,5 +1,28 @@
 [
  {
+  "abstract": "This entry formalises the complexity analysis of set operations on strongly joinable trees as defined by Blelloch, Ferizovic and Sun. It is proved that union, intersection, and difference run in time $O(m \\log(n/m + 1))$ for input sets of size $m$ and $n$ where $m \\le n$.",
+  "authors": [
+   "Marco Haucke"
+  ],
+  "date": "2026-09-24",
+  "link": "../entries/Joinable_BST_Work_Bounds.html",
+  "permalink": "https://isa-afp.org/entries/Joinable_BST_Work_Bounds.html",
+  "related": [
+   {
+    "doi": "10.1145/3512769"
+   }
+  ],
+  "shortname": "Joinable_BST_Work_Bounds",
+  "title": "Work Bounds for Strongly Joinable Balanced Binary Search Trees",
+  "topic_links": [
+   "../topics/computer-science/data-structures/"
+  ],
+  "topics": [
+   "Computer science/Data structures"
+  ],
+  "year": "2026"
+ },
+ {
   "abstract": "This entry formalizes the Teichmüller-Tukey lemma in Isabelle/HOL: every nonempty family of sets of finite character contains a member that is maximal under inclusion. The development follows the direct choice-function construction of Sun and Yu, originally presented in Morse-Kelley set theory and verified in Coq.",
   "authors": [
    "Vithor Lindermann Kraisch",

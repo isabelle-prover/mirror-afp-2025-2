@@ -3077,6 +3077,23 @@ host = [
 [haslbeckm.homepages]
 haslbeckm_homepage = "http://in.tum.de/~haslbema/"
 
+[haucke]
+name = "Marco Haucke"
+
+[haucke.emails]
+
+[haucke.emails.haucke_email]
+user = [
+  "marco",
+  "haucke",
+]
+host = [
+  "tum",
+  "de",
+]
+
+[haucke.homepages]
+
 [havle]
 name = "Oto Havle"
 
