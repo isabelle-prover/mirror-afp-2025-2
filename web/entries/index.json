@@ -128,6 +128,26 @@
   "year": "2026"
  },
  {
+  "abstract": "A deterministic context-free language (DCFL) is a language accepted by a deterministic pushdown automaton (DPDA). This entry proves that the deterministic context-free languages are closed under complementation. The proof follows the one in the book by Hopcroft and Ullman (1979).",
+  "authors": [
+   "Kaan Taskin",
+   "Tobias Nipkow"
+  ],
+  "date": "2026-08-24",
+  "link": "../entries/DPDA_Complement_HU.html",
+  "permalink": "https://isa-afp.org/entries/DPDA_Complement_HU.html",
+  "related": [],
+  "shortname": "DPDA_Complement_HU",
+  "title": "Deterministic Context-Free Languages are Closed Under   Complementation (Hopcroft and Ullman)",
+  "topic_links": [
+   "../topics/computer-science/automata-and-formal-languages/"
+  ],
+  "topics": [
+   "Computer science/Automata and formal languages"
+  ],
+  "year": "2026"
+ },
+ {
   "abstract": "Napoleon's theorem states that, for a non-degenerate triangle, the centres of the equilateral triangles constructed externally on its three sides form an equilateral triangle. We formalize this construction and conclusion using complex coordinates, including the exterior-side condition and both orientations of the 60-degree rotation.",
   "authors": [
    "Arthur Freitas Ramos",

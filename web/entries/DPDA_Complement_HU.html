@@ -2,11 +2,11 @@
 <html lang="en"><head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pushdown Automata - Archive of Formal Proofs</title>
-    <meta name="description" content="Pushdown Automata in the Archive of Formal Proofs">
-    <meta property="og:description" content="Pushdown Automata in the Archive of Formal Proofs">
-    <meta property="og:title" content="Pushdown Automata">
-    <meta property="og:url" content="https://isa-afp.org/entries/Pushdown_Automata.html">
+    <title>Deterministic Context-Free Languages are Closed Under   Complementation (Hopcroft and Ullman) - Archive of Formal Proofs</title>
+    <meta name="description" content="Deterministic Context-Free Languages are Closed Under   Complementation (Hopcroft and Ullman) in the Archive of Formal Proofs">
+    <meta property="og:description" content="Deterministic Context-Free Languages are Closed Under   Complementation (Hopcroft and Ullman) in the Archive of Formal Proofs">
+    <meta property="og:title" content="Deterministic Context-Free Languages are Closed Under   Complementation (Hopcroft and Ullman)">
+    <meta property="og:url" content="https://isa-afp.org/entries/DPDA_Complement_HU.html">
     <meta property="og:image" content="https://isa-afp.org/images/afp.png">
     <meta property="og:type" content="article">
   <link rel="stylesheet" type="text/css" href="../css/front.min.css">
@@ -87,50 +87,44 @@
       </div>
     </form>
   <h1>
-    <span class='first'>P</span>ushdown <span class='first'>A</span>utomata
+    <span class='first'>D</span>eterministic <span class='first'>C</span>ontext-<span class='first'>F</span>ree <span class='first'>L</span>anguages are <span class='first'>C</span>losed <span class='first'>U</span>nder   <span class='first'>C</span>omplementation (<span class='first'>H</span>opcroft and <span class='first'>U</span>llman)
   </h1>
   <div>
       <p><a href="../authors/taskin/">Kaan Taskin</a> <a class="obfuscated" data="eyJ1c2VyIjpbImthYW50YXNraW4yMDIyIl0sImhvc3QiOlsiZ21haWwiLCJjb20iXX0=">📧</a> and <a href="../authors/nipkow/">Tobias Nipkow</a> <a class="obfuscated" data="eyJ1c2VyIjpbIm5pcGtvdyJdLCJob3N0IjpbImluIiwidHVtIiwiZGUiXX0=">📧</a>
       </p>
-      <p class="date">October 15, 2025</p>
+      <p class="date">August 24, 2026</p>
   </div>
 </header>
       <div>
   <main>
 
     <h3>Abstract</h3>
-    <div class="abstract mathjax_process">This entry formalizes pushdown automata and proves their equivalence
-with context-free grammars. It also shows that acceptance by empty
-stack and by final state are equivalent.</div>
+    <div class="abstract mathjax_process">A deterministic context-free language (DCFL) is a language accepted by a deterministic pushdown automaton (DPDA). This entry proves that the deterministic context-free languages are closed under complementation. The proof follows the one in the book by Hopcroft and Ullman (1979).</div>
 
     <h3>License</h3>
     <div>
         <a href="https://isa-afp.org/LICENSE">BSD License</a>
     </div>
+      <h3>Note</h3>
+      <p><em>No AI was used.
+
+
+</em></p>
       <h3>Topics</h3>
       <ul>
           <li><a href="../topics/computer-science/automata-and-formal-languages/">Computer science/Automata and formal languages</a></li>
       </ul>
-      <h3>Session Pushdown_Automata</h3>
+      <h3>Session DPDA_Complement_HU</h3>
       <ul>
-          <li><a href="../thys/Pushdown_Automata/Pushdown_Automata.html">Pushdown_Automata</a></li>
-          <li><a href="../thys/Pushdown_Automata/Stack_To_Final_PDA.html">Stack_To_Final_PDA</a></li>
-          <li><a href="../thys/Pushdown_Automata/Final_To_Stack_PDA.html">Final_To_Stack_PDA</a></li>
-          <li><a href="../thys/Pushdown_Automata/CFG_To_PDA.html">CFG_To_PDA</a></li>
-          <li><a href="../thys/Pushdown_Automata/PDA_To_CFG.html">PDA_To_CFG</a></li>
+          <li><a href="../thys/DPDA_Complement_HU/Det_Pushdown_Automata.html">Det_Pushdown_Automata</a></li>
+          <li><a href="../thys/DPDA_Complement_HU/DPDA_Complement_HU.html">DPDA_Complement_HU</a></li>
       </ul>
 
     <div class="flex-wrap">
         <div>
           <h3>Depends on</h3>
           <ul class="horizontal-list">
-              <li><a href="../entries/Context_Free_Grammar.html">Context-Free Grammars and Languages</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Used by</h3>
-          <ul class="horizontal-list">
-              <li><a href="../entries/DPDA_Complement_HU.html">Deterministic Context-Free Languages are Closed Under   Complementation (Hopcroft and Ullman)</a></li>
+              <li><a href="../entries/Pushdown_Automata.html">Pushdown Automata</a></li>
           </ul>
         </div>
     </div>
@@ -140,9 +134,9 @@ stack and by final state are equivalent.</div>
     <a class="popup-button" href="#cite-popup">Cite</a>
     <a class="popup-button" href="#download-popup">Download</a>
     <h4>PDFs</h4>
-    <a href="https://isa-afp.org/browser_info/current/AFP/Pushdown_Automata/outline.pdf">Proof outline</a>
-    <a href="https://isa-afp.org/browser_info/current/AFP/Pushdown_Automata/document.pdf">Proof document</a>
-    <a href="https://isa-afp.org/browser_info/current/AFP/Pushdown_Automata/session_graph.pdf">Dependencies</a>
+    <a href="https://isa-afp.org/browser_info/current/AFP/DPDA_Complement_HU/outline.pdf">Proof outline</a>
+    <a href="https://isa-afp.org/browser_info/current/AFP/DPDA_Complement_HU/document.pdf">Proof document</a>
+    <a href="https://isa-afp.org/browser_info/current/AFP/DPDA_Complement_HU/session_graph.pdf">Dependencies</a>
   </nav>
 
   <div id="cite-popup" class="overlay">
@@ -151,14 +145,14 @@ stack and by final state are equivalent.</div>
       <h2>Cite</h2>
       <a class="close" href="#">&times;</a>
       <div>
-        <p style="display:none;" id="bibtex-filename">Pushdown_Automata-AFP</p>
-        <pre id="copy-text">@article{Pushdown_Automata-AFP,
+        <p style="display:none;" id="bibtex-filename">DPDA_Complement_HU-AFP</p>
+        <pre id="copy-text">@article{DPDA_Complement_HU-AFP,
   author  = {Kaan Taskin and Tobias Nipkow},
-  title   = {Pushdown Automata},
+  title   = {Deterministic Context-Free Languages are Closed Under   Complementation (Hopcroft and Ullman)},
   journal = {Archive of Formal Proofs},
-  month   = {October},
-  year    = {2025},
-  note    = {\url{https://isa-afp.org/entries/Pushdown_Automata.html},
+  month   = {August},
+  year    = {2026},
+  note    = {\url{https://isa-afp.org/entries/DPDA_Complement_HU.html},
              Formal proof development},
   ISSN    = {2150-914x},
 }</pre>
@@ -172,29 +166,8 @@ stack and by final state are equivalent.</div>
     <div class="popup">
       <h2>Download</h2>
       <a class="close" href="#">&times;</a>
-      <a href="https://isa-afp.org/release/afp-Pushdown_Automata-current.tar.gz" download>
+      <a href="https://isa-afp.org/release/afp-DPDA_Complement_HU-current.tar.gz" download>
         Download latest</a>
-        <p>Older releases:</p>
-        <ul>
-            <li>
-              <a href="https://isa-afp.org/release/afp-Pushdown_Automata-2026-02-06.tar.gz">
-                Feb 6, 2026
-              </a>
-              : Isabelle2025-2
-            </li>
-            <li>
-              <a href="https://isa-afp.org/release/afp-Pushdown_Automata-2025-12-19.tar.gz">
-                Dec 19, 2025
-              </a>
-              : Isabelle2025-1
-            </li>
-            <li>
-              <a href="https://isa-afp.org/release/afp-Pushdown_Automata-2025-10-17.tar.gz">
-                Oct 17, 2025
-              </a>
-              : Isabelle2025
-            </li>
-        </ul>
     </div>
   </div>
       </div>

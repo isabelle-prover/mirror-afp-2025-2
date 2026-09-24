@@ -23,6 +23,9 @@
     <loc>https://isa-afp.org/entries/Greibach_Hardest.html</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://isa-afp.org/entries/DPDA_Complement_HU.html</loc>
+    <lastmod>2026-08-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://isa-afp.org/entries/Napoleon.html</loc>
     <lastmod>2026-08-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -9400,6 +9403,10 @@
     <loc>https://isa-afp.org/thys/DP_QBS/DP_QBS.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/DP_QBS/DP_QBS_Examples.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/DPDA_Complement_HU/Det_Pushdown_Automata.html</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/DPDA_Complement_HU/DPDA_Complement_HU.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/DPRM_Theorem/All_Equations.html</loc>
   </url><url>

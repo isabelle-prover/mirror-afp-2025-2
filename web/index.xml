@@ -57,6 +57,13 @@
     <category>Logic/General logic/Mechanization of proofs</category>
 </item>
 <item>
+  <title>Deterministic Context-Free Languages are Closed Under   Complementation (Hopcroft and Ullman)</title>
+  <link>https://isa-afp.org/entries/DPDA_Complement_HU.html</link>
+  <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+  <description>Deterministic Context-Free Languages are Closed Under   Complementation (Hopcroft and Ullman) in the AFP</description>
+    <category>Computer science/Automata and formal languages</category>
+</item>
+<item>
   <title>Laurent Series Expansions on an Annulus</title>
   <link>https://isa-afp.org/entries/Laurent_Annulus.html</link>
   <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
