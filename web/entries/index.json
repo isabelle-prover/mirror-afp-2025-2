@@ -1,5 +1,30 @@
 [
  {
+  "abstract": "We formalize Steiner's line theorem in Isabelle/HOL. For a nondegenerate triangle and a point on its circumcircle, the reflections of that point in the three sidelines are collinear, and the resulting line passes through the orthocenter. The development uses complex coordinates and imports the published Wallace–Simson line entry for its perpendicular-foot and collinearity infrastructure.",
+  "authors": [
+   "Arthur Freitas Ramos",
+   "David Barros Hulak",
+   "Ruy Jose Guerra Barretto de Queiroz"
+  ],
+  "date": "2026-10-06",
+  "link": "../entries/Steiner_Line_Theorem.html",
+  "permalink": "https://isa-afp.org/entries/Steiner_Line_Theorem.html",
+  "related": [
+   {
+    "doi": "10.5948/UPO9780883859346"
+   }
+  ],
+  "shortname": "Steiner_Line_Theorem",
+  "title": "Steiner's Line Theorem in Isabelle/HOL",
+  "topic_links": [
+   "../topics/mathematics/geometry/"
+  ],
+  "topics": [
+   "Mathematics/Geometry"
+  ],
+  "year": "2026"
+ },
+ {
   "abstract": "This entry formalises the complexity analysis of set operations on strongly joinable trees as defined by Blelloch, Ferizovic and Sun. It is proved that union, intersection, and difference run in time $O(m \\log(n/m + 1))$ for input sets of size $m$ and $n$ where $m \\le n$.",
   "authors": [
    "Marco Haucke"

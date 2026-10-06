@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://isa-afp.org/entries/index.json</loc>
-    <lastmod>2026-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://isa-afp.org/</loc>
-    <lastmod>2026-09-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://isa-afp.org/entries/Steiner_Line_Theorem.html</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://isa-afp.org/entries/Joinable_BST_Work_Bounds.html</loc>
     <lastmod>2026-09-24T00:00:00+00:00</lastmod>
@@ -24180,6 +24183,8 @@
     <loc>https://isa-afp.org/authors/richter/</loc>
   </url><url>
     <loc>https://isa-afp.org/authors/helke/</loc>
+  </url><url>
+    <loc>https://isa-afp.org/thys/Steiner_Line_Theorem/Steiner.html</loc>
   </url><url>
     <loc>https://isa-afp.org/thys/Stellar_Quorums/Stellar_Quorums.html</loc>
   </url><url>
